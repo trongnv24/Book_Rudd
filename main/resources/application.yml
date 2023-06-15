@@ -1,0 +1,9 @@
+spring:
+  liquibase:
+    change-log: classpath:/migration/master-changelog.xml
+  datasource:
+    url: jdbc:postgresql://localhost:5433/book1
+    username: postgres
+    password: 2409
+    driver-class-name: org.postgresql.Driver
+server.port: 8081
